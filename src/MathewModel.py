@@ -6,7 +6,7 @@ import numpy as np
 
 class MathewModel:
     def __init__(self):
-        self.model = keras.models.load_model('model/mathew(3).h5')
+        self.model = keras.models.load_model('model/mathew.h5')
         self.class_dict = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8',
                            9: '9', 10: '+', 11: '/', 12: '*', 13: '-'}
 
